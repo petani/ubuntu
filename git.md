@@ -60,6 +60,9 @@ vi .gitignore
 `git add file.xxx`
 
 ### Create a new repository on the command line
+
+當你建立新的 repository 時，會自動提示下列的指令
+
 <pre><code>
 touch README.md
 git init
