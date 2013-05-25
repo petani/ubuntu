@@ -79,6 +79,21 @@ git remote add origin https://github.com/petani/vim.git
 git push -u origin master
 </code></pre>
 
+你有兩種方法查看歷史紀錄
+
+* `git log`
+* `git show HEAD` 這個指令能顯示更詳細的變更內容
+
+你可以使用 git blame 來查詢，誰把程式改到攔掉了！
+
+* `git blame xxx.c`
+
+復原檔案, 這個方法很常用，但也很容易忽略。
+
+* `git checkout 檔名`  回復上一次 commit 的內容
+* `get reset HEAD 檔名`:
+
+
 另一種受歡迎的版本控制系統
 * bitbucket.org
 
