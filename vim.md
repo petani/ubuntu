@@ -34,6 +34,18 @@ highlight Comment ctermfg=darkcyan
 
 [vim figure]: http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/
 
+vim tab 功能
+
+* vim a.md b.md c.md
+* :tab all
+* 切換 tab 
+    * gt
+* 跳到某個 tab
+    * 數字gt
+    * 例如跳到第1個tab, 1gt
+
+vim 退出所有檔案
+* :qa
 
 vi tips
 
@@ -55,7 +67,6 @@ vi tips
     * zz
     * zb
 * 
-
 
 vim  a b -O                                                                                                               
 vim  a b -d

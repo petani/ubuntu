@@ -4,7 +4,7 @@
 
 * `apt-get install texlive texlive-fonts-extra latex-cjk-all latexila jabref`
 
-需要下載 106 MB 的套件檔 
+然後安裝字形, 大約需要下載 106 MB 的套件檔 
 
 * `apt-get install texlive-fonts-extra`
 

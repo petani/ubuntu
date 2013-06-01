@@ -103,8 +103,10 @@ git push -u origin master
 * [Git 教學(2)：Git Branch 的操作與基本工作流程][git2]
 * [[Git] 從 Git 開始進入版本控制的世界 (Git in a Nutshell)][git3]
 * [The four buckets — how Git considers content][git4]
+* [Creating Project Pages manually][git4]
 
 [git1]: http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/
 [git2]: http://blog.gogojimmy.net/2012/01/21/how-to-use-git-2-basic-usage-and-worflow/
 [git3]: http://cg2010studio.wordpress.com/2011/12/15/git-%E5%BE%9E-git-%E9%96%8B%E5%A7%8B%E9%80%B2%E5%85%A5%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%9A%84%E4%B8%96%E7%95%8C-git-in-a-nutshell/
 [git4]: http://365git.tumblr.com/post/472624933/the-four-buckets-how-git-considers-content
+[git5]: https://help.github.com/articles/creating-project-pages-manually
