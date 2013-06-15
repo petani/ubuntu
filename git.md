@@ -97,6 +97,15 @@ git push -u origin master
 另一種受歡迎的版本控制系統
 * bitbucket.org
 
+### 
+
+Set up SSH for Git and Mercurial on Mac OSX/Linux
+
+* 如果還沒安裝 xclip 請先安裝
+    * `apt-get install xclip `
+*`ssh-keygen`
+* `xclip -sel clip < ~/.ssh/your.pub`
+
 參考資料:
 
 * [Git 教學(1) : Git 的基本使用][git1]

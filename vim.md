@@ -34,11 +34,39 @@ highlight Comment ctermfg=darkcyan
 
 [vim figure]: http://blog.vgod.tw/2009/12/08/vim-cheat-sheet-for-programmers/
 
+### vi 好問題
+
+問題:
+
+* 如何刪除行尾為 '# ' 的資料?
+    * s/# \+$//
+    * s/#$//
+* 如何刪除 question: nnnn 的內容?
+    * s/question: 3399//
+    * %s/question: \d\d\d\d  //
+* 刪除 :: xxxx :: 之間所有內容
+    * %s/::.*:://g
+* 刪除行尾多餘的空格,Tab
+    * %s/\s\+$//
+    * %s/\s *$//
+
+<pre><code>
+// question: 3399  name: 下列SQL指令何者為資料定義語言DDL？
+::下列SQL指令何者為資料定義語言DDL？::下列SQL指令何者為資料定義語言DDL？{
+    =CREATE
+    ~INSERT
+    ~UPDATE
+    ~DELETE
+}
+</code></pre>
+
 vim tab 功能
 
-* vim a.md b.md c.md
+* Opening and closing tabs 最快速呼叫 tabs 的方法
+    * `vim -p a.md b.md c.md`
+* `vim a.md b.md c.md`
 * :tab all
-* 切換 tab 
+* 切換 tab
     * gt
 * 跳到某個 tab
     * 數字gt
@@ -63,17 +91,22 @@ vi tips
 進階指令
 
 * 移動游標
-    * zt 到頂部 
+    * zt 到頂部
     * zz
     * zb
-* 
 
-vim  a b -O                                                                                                               
+vim  a b -O
 vim  a b -d
 vimdiff a b
 
 colorscheme torte
- 
+
 :help
 ctrl+wo 放大螢幕
 :only 放大螢幕
+
+參考資料
+
+* [Using tab pages][tabs]
+
+[tabs]: http://vim.wikia.com/wiki/Using_tab_pages
