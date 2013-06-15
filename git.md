@@ -99,7 +99,7 @@ git push -u origin master
 
 ### 
 
-Set up SSH for Git and Mercurial on Mac OSX/Linux
+[Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
 
 * 如果還沒安裝 xclip 請先安裝
     * `apt-get install xclip `
