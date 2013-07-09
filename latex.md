@@ -6,6 +6,6 @@
 
 然後安裝字形, 大約需要下載 106 MB 的套件檔 
 
-* `apt-get install texlive-fonts-extra`
+* `apt-get install texlive-fonts-extra tex-gyre ttf-arphic-bkai00mp`
 
 安裝好後，使用 latexila 編輯 tex 檔案, 然後按 「XeLatex  -> PDF」來產生 PDF
